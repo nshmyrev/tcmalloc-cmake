@@ -13,7 +13,7 @@ set(TCMALLOC_TEST "build tests" ON)
 
 
 ## dependency resolution
-include(<F2>FetchContent)
+include(FetchContent)
 
 FetchContent_Declare(
     abseil
